@@ -151,7 +151,21 @@ font-weight: 400;
     border-radius: 5px;
    /* text-align: justify; */
 }
-
+.bonas{
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 1350px;
+    height: 250px;
+    margin: auto;
+    margin-top: 130px;
+}
+.extra{
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+}
 
 
 
@@ -181,4 +195,25 @@ footer{
     color: white;
     text-align: center;
    
+}
+.footer-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 24px;
+   padding-top: 135px;
+}
+.footer-description{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    /* width: 50%; */
+    margin: auto;
+    /* margin-bottom: 20px; */
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.copy-right{
+    padding-top: 30px;
+    padding-bottom: 120px;
 }
