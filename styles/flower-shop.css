@@ -15,12 +15,14 @@ header{
     justify-content: space-around;
     align-items: center;
     padding: 40px 40px 0px 200px;
+    /* height: 750px; */
 }
 .banner-content{
    max-width: 650px;
 }
 .flower-pic{
-width: 500px;
+width: 590px;
+
 }
 .banner-title{
     color: #272727;
@@ -123,8 +125,31 @@ font-weight: 400;
     gap: 25px;
 }
 .deals{
-    background-image: url('../images/Rectangle\ 9.png');
-    background: no-repeat;
+    background-image:url('../images/Rectangle\ 9.png');
+    width: 1350px;
+    margin: auto;
+    padding:  60px;
+    text-align: center;
+    height: 450px;
+    background-repeat: no-repeat;
+
+}
+.your{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    margin-top: 45px;
+    /* margin-bottom: 20px; */
+}
+.mail{
+    width: 600px;
+    height: 35px;
+    border: none;
+    padding: 7px;
+    border: 0;
+    border-radius: 5px;
+   /* text-align: justify; */
 }
 
 
@@ -152,4 +177,8 @@ font-weight: 400;
 
 footer{
     background-color: black;
+    margin-top: 45px;
+    color: white;
+    text-align: center;
+   
 }
